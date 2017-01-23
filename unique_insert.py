@@ -27,4 +27,12 @@ def run_tests():
 
 
 def uniq_insert(nums, n):
+    if n in nums:
+        pass
+    else:
+        nums.append(n)
+    print(nums)
+         
+        
+    
 
